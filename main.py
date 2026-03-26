@@ -18,11 +18,8 @@ std= std_dev(filled_data)
 
 print("Normalizacion Min-", min_max(filled_data))
 print("Normalizacion Z-Score", z_score(filled_data, me, std))
-
 print("Eliminar valores nulos:", clean_data)
 print("Reemplazar valores faltantes:", filled_data)
-
-
 print("Calculo de Moda:", m)
 print("Calculo de Media Armonica", med)
 print("Calculo de Media Geometrica:", geo)
