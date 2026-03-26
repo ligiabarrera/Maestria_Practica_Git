@@ -1,0 +1,59 @@
+Funcionalidades mínimas
+El paquete deberá incluir al menos tres módulos, cada uno con funciones relacionadas con preparación de datos.
+
+Ejemplo:
+
+cleaning.py
+
+eliminar valores nulos
+
+reemplazar valores faltantes
+
+normalization.py
+
+normalización Min-Max
+
+estandarización (Z-score)
+
+statistics.py
+
+cálculo de moda
+
+cálculo de media armonica
+
+cálculo de media geométrica
+
+3. Uso del paquete
+El archivo main.py deberá:
+
+importar el paquete desarrollado
+
+utilizar varias de sus funciones
+
+demostrar el funcionamiento con un conjunto de datos de ejemplo
+
+Ejemplo de uso esperado:
+
+from datapreputils.statistics import mean
+from datapreputils.normalization import min_max
+4. Buenas prácticas requeridas
+El proyecto debe cumplir con:
+
+estructura correcta de paquetes y módulos
+
+uso adecuado de importaciones
+
+funciones con docstrings
+
+código claro y modular
+
+5. Entrega
+Los estudiantes deberán entregar:
+
+carpeta del proyecto
+
+código fuente del paquete
+
+archivo README.md con una breve explicación del proyecto
+
+script main.py demostrando el uso del paquete
