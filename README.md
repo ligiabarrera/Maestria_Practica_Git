@@ -4,7 +4,7 @@ DataPrepUtils es un paquete de Python diseñado para realizar tareas básicas de
 
 ## Integrantes del Grupo
 - Ligia Gabriela Barrera Copa
--
+- Deisy Leny Sánchez Soto
 -
 -
 
@@ -25,7 +25,7 @@ DATAPREP_PROJECT
 
 ## Funcionalidades
 
-### Módulo cleaning.py
+### Módulo cleaning.py (Deisy Sánchez S.)
 - Eliminar valores nulos
 - Reemplazar valores faltantes
 
