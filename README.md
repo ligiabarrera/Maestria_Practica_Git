@@ -1,8 +1,11 @@
-# DataPrepUtils
+📊 DataPrepUtils
 
-DataPrepUtils es un paquete de Python diseñado para realizar tareas básicas de preparación de datos en proyectos de Ciencia de Datos.
+DataPrepUtils es un paquete de Python orientado a la preparación y limpieza de datos, diseñado para facilitar tareas comunes en proyectos de Ciencia de Datos y Análisis de Datos.
 
-## Integrantes del Grupo
+Proporciona funciones simples, reutilizables y eficientes para el preprocesamiento, permitiendo mejorar la calidad de los datos antes de su análisis o modelado.
+
+👥 Integrantes del Grupo
+
 - Ligia Gabriela Barrera Copa
 - Griselda Merino Herbas
 - Deysi Sanchez
@@ -23,21 +26,39 @@ DATAPREP_PROJECT
 ├── README.md              # Documentación
 └── requirements.txt       # Dependencias del proyecto
 
-## Funcionalidades
 
-### Módulo cleaning.py
-- Eliminar valores nulos
-- Reemplazar valores faltantes
+⚙️ Funcionalidades
 
-### Módulo normalization.py
-- Normalización Min-Max
-- Estandarización Z-score
+🧹 Módulo cleaning.py 
 
-### Módulo statistics.py
-- Media aritmética
-- Moda
-- Media armónica
-- Media geométrica
+Funciones para la limpieza y tratamiento de datos:
+
+Eliminación de valores nulos (None, NaN)
+Imputación de valores faltantes
+Preparación de datos para análisis posteriores
+
+📏 Módulo normalization.py
+
+Funciones para escalar y transformar datos:
+
+Normalización Min-Max
+Escala los datos a un rango entre 0 y 1
+Estandarización Z-score
+Centra los datos con media 0 y desviación estándar 1
+Binarización de datos
+Convierte los valores en 0 o 1 en función de un umbral definido:
+Valores mayores al umbral → 1
+Valores menores o iguales → 0
+Útil en modelos de clasificación y machine learning
+
+📈 Módulo statistics.py
+
+Funciones estadísticas básicas:
+
+Media aritmética
+Moda
+Media armónica
+Media geométrica
 
 ## Ejecución
 

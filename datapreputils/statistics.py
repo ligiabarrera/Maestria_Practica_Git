@@ -33,6 +33,7 @@ def get_harmonic_mean(data):
     
     
 def get_geometric_mean(data):
+    
     if not data:
         raise ValueError("La lista de datos no puede estar vacía.")
     if any(x <= 0 for x in data):
