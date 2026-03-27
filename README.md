@@ -6,7 +6,7 @@ DataPrepUtils es un paquete de Python diseñado para realizar tareas básicas de
 - Ligia Gabriela Barrera Copa
 - Griselda Merino Herbas
 - Deysi Sanchez
-- José Luis Romero
+- José Luis Romero -->modificado
 
 ## Estructura del proyecto
 
